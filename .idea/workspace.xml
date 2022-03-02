@@ -12,11 +12,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="120">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cupy_module/adacof.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="356">
+                <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -113,6 +136,7 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/dataset/vimeo90k_septuplet.py" />
         <option value="$PROJECT_DIR$/utils/plot_attn.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -139,11 +163,6 @@
               <item name="Video-Frame-Interpolation-Transformer" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoints" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Video-Frame-Interpolation-Transformer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Video-Frame-Interpolation-Transformer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,19 +177,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/model/Unet_arch.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/checkpoints" />
-      <recent name="$PROJECT_DIR$/utils" />
-      <recent name="$PROJECT_DIR$/checkpoints/VFIT_S" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/checkpoints/VFIT_B" />
       <recent name="$PROJECT_DIR$/checkpoints/VFIT_S" />
       <recent name="$PROJECT_DIR$/checkpoints/VFIT-B" />
       <recent name="$PROJECT_DIR$/checkpoints/Unet_arch" />
       <recent name="$PROJECT_DIR$/checkpoints/epoch_100" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/checkpoints" />
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/checkpoints/VFIT_S" />
+      <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,6 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1535519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -431,7 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/separable_swin3D_encoder/new.py" />
     <entry file="file://$PROJECT_DIR$/training_log/full_log.txt" />
     <entry file="file://$PROJECT_DIR$/util/utility.py" />
     <entry file="file://$PROJECT_DIR$/validation.py" />
@@ -702,8 +721,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="120">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cupy_module/adacof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="356">
+            <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

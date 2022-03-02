@@ -1,6 +1,8 @@
 # Video Frame Interpolation Transformer
 
-This repo is the official implementation of 'Video Frame Interpolation Transformer', CVPR 2022 [Paper](https://arxiv.org/pdf/2111.13817.pdf).
+This repo is the official implementation of 'Video Frame Interpolation Transformer', CVPR 2022.
+
+[Paper](https://arxiv.org/pdf/2111.13817.pdf), Video(To be uploaded)
 
 ## Packages
 The following pakages are required to run the code:
@@ -11,9 +13,6 @@ The following pakages are required to run the code:
 * cupy==7.5.0
 * pillow==8.2.0
 * einops==0.3.0
-
-## Video
-To be upload.
 
 
 ## Train
@@ -30,7 +29,7 @@ After training, you can evaluate the model with following command:
 ```
 python test.py --model VFIT_B --dataset vimeo90K_septuplet --data_root <dataset_path> --load_from checkpoints/model_best.pth
 ```
-We also provide our model weight here [weight](https://drive.google.com/drive/folders/1FMQv9VuoexlinzjZ4vuGEZAZDgywzH9T?usp=sharing).
+You can also evaluate VFIT using our [weight](https://drive.google.com/drive/folders/1FMQv9VuoexlinzjZ4vuGEZAZDgywzH9T?usp=sharing).
 
 More datasets for evaluation:
 * [UCF](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fdbihqk5deobn0f7%2Fucf101_extracted.zip%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNE8CyLdENKhJf2eyFUWu6G2D1iJUQ)
