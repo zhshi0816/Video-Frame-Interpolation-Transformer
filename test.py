@@ -39,9 +39,9 @@ elif args.dataset == "Davis":
     from dataset.Davis_test import get_loader
     test_loader = get_loader(args.data_root, args.test_batch_size, shuffle=False, num_workers=args.num_workers, test_mode=True)
 
-if args.model == 'VFIT-S':
+if args.model == 'VFIT_S':
     from model.VFIT_S import UNet_3D_3D
-elif args.model == 'VFIT-B':
+elif args.model == 'VFIT_B':
     from model.VFIT_B import UNet_3D_3D
 
 print("Building model: %s"%args.model)

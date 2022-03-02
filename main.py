@@ -42,9 +42,9 @@ if args.dataset == "vimeo90K_septuplet":
 else:
     raise NotImplementedError
 
-if args.model == 'VFIT-S':
+if args.model == 'VFIT_S':
     from model.VFIT_S import UNet_3D_3D
-elif args.model == 'VFIT-B':
+elif args.model == 'VFIT_B':
     from model.VFIT_B import UNet_3D_3D
 
 print("Building model: %s"%args.model)

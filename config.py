@@ -21,8 +21,8 @@ data_arg.add_argument('--data_root', type=str, default='/home/zhihao/DATA-M2/vid
 
 # Model
 model_arg = add_argument_group('Model')
-model_choices = ["VFIT-S", "VFIT-B"]
-model_arg.add_argument('--model', choices=model_choices, type=str, default="VFIT-B")
+model_choices = ["VFIT_S", "VFIT_B"]
+model_arg.add_argument('--model', choices=model_choices, type=str, default="VFIT_B")
 model_arg.add_argument('--nbr_frame' , type=int , default=4)
 model_arg.add_argument('--joinType' , choices=["concat" , "add" , "none"], default="concat")
 
