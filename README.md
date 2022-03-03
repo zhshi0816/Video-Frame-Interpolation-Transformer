@@ -38,10 +38,10 @@ More datasets for evaluation:
 
 Please consider citing this paper if you find the code and data useful in your research:
 ```
-@article{shi2021video,
+@inproceedings{shi2022video,
   title={Video Frame Interpolation Transformer},
   author={Shi, Zhihao and Xu, Xiangyu and Liu, Xiaohong and Chen, Jun and Yang, Ming-Hsuan},
-  journal={arXiv preprint arXiv:2111.13817},
-  year={2021}
+  booktitle={CVPR},
+  year={2022}
 }
 ```
