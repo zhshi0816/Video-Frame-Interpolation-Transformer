@@ -45,3 +45,10 @@ Please consider citing this paper if you find the code and data useful in your r
   year={2022}
 }
 ```
+
+
+## References
+Some other great video interpolation resources that we benefit from:
+* FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation, arXiv 2021 [Code](https://github.com/tarun005/FLAVR)
+* QVI: Quadratic Video Interpolation, NeurIPS 2019 [Code](https://github.com/xuxy09/QVI)
+* AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation, CVPR 2020 [Code](https://github.com/HyeongminLEE/AdaCoF-pytorch)
