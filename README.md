@@ -29,7 +29,7 @@ After training, you can evaluate the model with following command:
 ```
 python test.py --model VFIT_B --dataset vimeo90K_septuplet --data_root <dataset_path> --load_from checkpoints/model_best.pth
 ```
-You can also evaluate VFIT using our [weight](https://drive.google.com/drive/folders/1FMQv9VuoexlinzjZ4vuGEZAZDgywzH9T?usp=sharing).
+You can also evaluate VFIT using our weight [here](https://drive.google.com/drive/folders/1FMQv9VuoexlinzjZ4vuGEZAZDgywzH9T?usp=sharing).
 
 More datasets for evaluation:
 * [UCF](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fdbihqk5deobn0f7%2Fucf101_extracted.zip%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNE8CyLdENKhJf2eyFUWu6G2D1iJUQ)
