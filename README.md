@@ -2,7 +2,7 @@
 
 This repo is the official implementation of 'Video Frame Interpolation Transformer', CVPR 2022.
 
-[Paper](https://arxiv.org/pdf/2111.13817.pdf), Video(To be uploaded)
+[Paper](https://arxiv.org/pdf/2111.13817.pdf), [Video](https://drive.google.com/file/d/1-U8Pk_URBscMdWbi6B61E1mGDcWVIEYb/view?usp=sharing)
 
 ## Packages
 The following pakages are required to run the code:
